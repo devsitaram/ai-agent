@@ -1,0 +1,292 @@
+{
+  "project_id": "75bf9f2a-11da-4602-a875-c20da3212911",
+  "project_name": "ChaseApp",
+  "created_at": "2026-06-24T11:59:19.381665",
+  "user_input": "Create a Chase mobile App in language is kotlin with compose where backend is not needed",
+  "status": "completed",
+  "tech_stack": {
+    "language": "kotlin",
+    "frontend": "compose",
+    "mobile": "kotlin",
+    "backend": "fastapi",
+    "database": "sqlite",
+    "orm": "sqlalchemy"
+  },
+  "project_path": "output/ChaseApp_75bf9f2a",
+  "agent_results": {
+    "requirement": {
+      "status": "completed",
+      "output": "Requirements generated with 1070 characters",
+      "artifacts": [
+        "output/ChaseApp_75bf9f2a/REQUIREMENTS.md"
+      ],
+      "error": null,
+      "started_at": null,
+      "completed_at": "2026-06-24T11:59:20.061852",
+      "bugs_found": 0,
+      "bugs_fixed": 0,
+      "qa_loop_count": 0,
+      "bug_reports": [],
+      "test_results": {}
+    },
+    "architecture": {
+      "status": "completed",
+      "output": "Architecture designed with 2162 characters",
+      "artifacts": [
+        "output/ChaseApp_75bf9f2a/ARCHITECTURE.md"
+      ],
+      "error": null,
+      "started_at": null,
+      "completed_at": "2026-06-24T11:59:20.683748",
+      "bugs_found": 0,
+      "bugs_fixed": 0,
+      "qa_loop_count": 0,
+      "bug_reports": [],
+      "test_results": {}
+    },
+    "development": {
+      "status": "completed",
+      "output": "Generated 10 files:\n  - ChaseApp_75bf9f2a/settings.gradle.kts\n  - ChaseApp_75bf9f2a/build.gradle.kts\n  - gradle/libs.versions.toml\n  - app/build.gradle.kts\n  - main/AndroidManifest.xml\n  - values/strings.xml\n  - values/themes.xml\n  - chaseapp/MainActivity.kt\n  - theme/Theme.kt\n  - theme/Typography.kt",
+      "artifacts": [
+        "output/ChaseApp_75bf9f2a/settings.gradle.kts",
+        "output/ChaseApp_75bf9f2a/build.gradle.kts",
+        "output/ChaseApp_75bf9f2a/gradle/libs.versions.toml",
+        "output/ChaseApp_75bf9f2a/app/build.gradle.kts",
+        "output/ChaseApp_75bf9f2a/app/src/main/AndroidManifest.xml",
+        "output/ChaseApp_75bf9f2a/app/src/main/res/values/strings.xml",
+        "output/ChaseApp_75bf9f2a/app/src/main/res/values/themes.xml",
+        "output/ChaseApp_75bf9f2a/app/src/main/java/com/example/chaseapp/MainActivity.kt",
+        "output/ChaseApp_75bf9f2a/app/src/main/java/com/example/chaseapp/ui/theme/Theme.kt",
+        "output/ChaseApp_75bf9f2a/app/src/main/java/com/example/chaseapp/ui/theme/Typography.kt"
+      ],
+      "error": null,
+      "started_at": null,
+      "completed_at": "2026-06-24T11:59:27.904095",
+      "bugs_found": 0,
+      "bugs_fixed": 0,
+      "qa_loop_count": 0,
+      "bug_reports": [],
+      "test_results": {}
+    },
+    "qa": {
+      "status": "completed",
+      "output": "QA completed: 0/1 tests passed, 1 failed, 1 bugs reported",
+      "artifacts": [
+        "output/ChaseApp_75bf9f2a/QA_REPORT.md"
+      ],
+      "error": null,
+      "started_at": null,
+      "completed_at": "2026-06-24T11:59:28.553544",
+      "bugs_found": 1,
+      "bugs_fixed": 0,
+      "qa_loop_count": 0,
+      "bug_reports": [
+        {
+          "id": "6e5bf3dd-64e0-4b29-84b9-1014997dc611",
+          "title": "Functional test failure: Check README",
+          "description": "File not found: README.md",
+          "severity": "medium",
+          "file_path": null,
+          "line_number": null,
+          "status": "open"
+        }
+      ],
+      "test_results": {
+        "functional": {
+          "passed": 0,
+          "failed": 1,
+          "total": 1,
+          "failures": [
+            [
+              "Check README",
+              "File not found: README.md"
+            ]
+          ]
+        },
+        "security": {
+          "issues_found": 0,
+          "findings": []
+        },
+        "edge_cases": {
+          "issues_found": 0,
+          "issues": []
+        },
+        "code_quality": {
+          "total_files": 0,
+          "total_lines": 0,
+          "docstrings": 0,
+          "comment_lines": 0
+        }
+      }
+    },
+    "documentation": {
+      "status": "completed",
+      "output": "Generated 5 documentation files",
+      "artifacts": [
+        "output/ChaseApp_75bf9f2a/API.md",
+        "output/ChaseApp_75bf9f2a/README.md",
+        "output/ChaseApp_75bf9f2a/DEPLOYMENT.md",
+        "output/ChaseApp_75bf9f2a/CHANGELOG.md",
+        "output/ChaseApp_75bf9f2a/USER_GUIDE.md"
+      ],
+      "error": null,
+      "started_at": null,
+      "completed_at": "2026-06-24T11:59:28.565702",
+      "bugs_found": 0,
+      "bugs_fixed": 0,
+      "qa_loop_count": 0,
+      "bug_reports": [],
+      "test_results": {}
+    },
+    "runner": {
+      "status": "skipped",
+      "output": "",
+      "artifacts": [],
+      "error": null,
+      "started_at": null,
+      "completed_at": null,
+      "bugs_found": 0,
+      "bugs_fixed": 0,
+      "qa_loop_count": 0,
+      "bug_reports": [],
+      "test_results": {}
+    }
+  },
+  "requirement_agent": {
+    "status": "completed",
+    "output": "Requirements generated with 1070 characters",
+    "artifacts": [
+      "output/ChaseApp_75bf9f2a/REQUIREMENTS.md"
+    ],
+    "error": null,
+    "started_at": null,
+    "completed_at": "2026-06-24T11:59:20.061852",
+    "bugs_found": 0,
+    "bugs_fixed": 0,
+    "qa_loop_count": 0,
+    "bug_reports": [],
+    "test_results": {}
+  },
+  "architecture_agent": {
+    "status": "completed",
+    "output": "Architecture designed with 2162 characters",
+    "artifacts": [
+      "output/ChaseApp_75bf9f2a/ARCHITECTURE.md"
+    ],
+    "error": null,
+    "started_at": null,
+    "completed_at": "2026-06-24T11:59:20.683748",
+    "bugs_found": 0,
+    "bugs_fixed": 0,
+    "qa_loop_count": 0,
+    "bug_reports": [],
+    "test_results": {}
+  },
+  "development_agent": {
+    "status": "completed",
+    "output": "Generated 10 files:\n  - ChaseApp_75bf9f2a/settings.gradle.kts\n  - ChaseApp_75bf9f2a/build.gradle.kts\n  - gradle/libs.versions.toml\n  - app/build.gradle.kts\n  - main/AndroidManifest.xml\n  - values/strings.xml\n  - values/themes.xml\n  - chaseapp/MainActivity.kt\n  - theme/Theme.kt\n  - theme/Typography.kt",
+    "artifacts": [
+      "output/ChaseApp_75bf9f2a/settings.gradle.kts",
+      "output/ChaseApp_75bf9f2a/build.gradle.kts",
+      "output/ChaseApp_75bf9f2a/gradle/libs.versions.toml",
+      "output/ChaseApp_75bf9f2a/app/build.gradle.kts",
+      "output/ChaseApp_75bf9f2a/app/src/main/AndroidManifest.xml",
+      "output/ChaseApp_75bf9f2a/app/src/main/res/values/strings.xml",
+      "output/ChaseApp_75bf9f2a/app/src/main/res/values/themes.xml",
+      "output/ChaseApp_75bf9f2a/app/src/main/java/com/example/chaseapp/MainActivity.kt",
+      "output/ChaseApp_75bf9f2a/app/src/main/java/com/example/chaseapp/ui/theme/Theme.kt",
+      "output/ChaseApp_75bf9f2a/app/src/main/java/com/example/chaseapp/ui/theme/Typography.kt"
+    ],
+    "error": null,
+    "started_at": null,
+    "completed_at": "2026-06-24T11:59:27.904095",
+    "bugs_found": 0,
+    "bugs_fixed": 0,
+    "qa_loop_count": 0,
+    "bug_reports": [],
+    "test_results": {}
+  },
+  "qa_agent": {
+    "status": "completed",
+    "output": "QA completed: 0/1 tests passed, 1 failed, 1 bugs reported",
+    "artifacts": [
+      "output/ChaseApp_75bf9f2a/QA_REPORT.md"
+    ],
+    "error": null,
+    "started_at": null,
+    "completed_at": "2026-06-24T11:59:28.553544",
+    "bugs_found": 1,
+    "bugs_fixed": 0,
+    "qa_loop_count": 0,
+    "bug_reports": [
+      {
+        "id": "6e5bf3dd-64e0-4b29-84b9-1014997dc611",
+        "title": "Functional test failure: Check README",
+        "description": "File not found: README.md",
+        "severity": "medium",
+        "file_path": null,
+        "line_number": null,
+        "status": "open"
+      }
+    ],
+    "test_results": {
+      "functional": {
+        "passed": 0,
+        "failed": 1,
+        "total": 1,
+        "failures": [
+          [
+            "Check README",
+            "File not found: README.md"
+          ]
+        ]
+      },
+      "security": {
+        "issues_found": 0,
+        "findings": []
+      },
+      "edge_cases": {
+        "issues_found": 0,
+        "issues": []
+      },
+      "code_quality": {
+        "total_files": 0,
+        "total_lines": 0,
+        "docstrings": 0,
+        "comment_lines": 0
+      }
+    }
+  },
+  "documentation_agent": {
+    "status": "completed",
+    "output": "Generated 5 documentation files",
+    "artifacts": [
+      "output/ChaseApp_75bf9f2a/API.md",
+      "output/ChaseApp_75bf9f2a/README.md",
+      "output/ChaseApp_75bf9f2a/DEPLOYMENT.md",
+      "output/ChaseApp_75bf9f2a/CHANGELOG.md",
+      "output/ChaseApp_75bf9f2a/USER_GUIDE.md"
+    ],
+    "error": null,
+    "started_at": null,
+    "completed_at": "2026-06-24T11:59:28.565702",
+    "bugs_found": 0,
+    "bugs_fixed": 0,
+    "qa_loop_count": 0,
+    "bug_reports": [],
+    "test_results": {}
+  },
+  "runner_agent": {
+    "status": "skipped",
+    "output": "",
+    "artifacts": [],
+    "error": null,
+    "started_at": null,
+    "completed_at": null,
+    "bugs_found": 0,
+    "bugs_fixed": 0,
+    "qa_loop_count": 0,
+    "bug_reports": [],
+    "test_results": {}
+  }
+}

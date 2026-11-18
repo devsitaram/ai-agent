@@ -1,0 +1,286 @@
+{
+  "project_id": "43857615-8501-4e04-93fa-e0046941fd52",
+  "project_name": "Chess",
+  "created_at": "2026-06-24T12:10:05.398569",
+  "user_input": "this is already devepot update that project",
+  "status": "completed",
+  "tech_stack": {
+    "language": "python",
+    "backend": "fastapi",
+    "database": "sqlite",
+    "orm": "sqlalchemy"
+  },
+  "project_path": "output/Chess_43857615",
+  "agent_results": {
+    "requirement": {
+      "status": "completed",
+      "output": "Requirements generated with 1025 characters",
+      "artifacts": [
+        "output/Chess_43857615/REQUIREMENTS.md"
+      ],
+      "error": null,
+      "started_at": null,
+      "completed_at": "2026-06-24T12:10:06.233505",
+      "bugs_found": 0,
+      "bugs_fixed": 0,
+      "qa_loop_count": 0,
+      "bug_reports": [],
+      "test_results": {}
+    },
+    "architecture": {
+      "status": "completed",
+      "output": "Architecture designed with 2162 characters",
+      "artifacts": [
+        "output/Chess_43857615/ARCHITECTURE.md"
+      ],
+      "error": null,
+      "started_at": null,
+      "completed_at": "2026-06-24T12:10:06.932964",
+      "bugs_found": 0,
+      "bugs_fixed": 0,
+      "qa_loop_count": 0,
+      "bug_reports": [],
+      "test_results": {}
+    },
+    "development": {
+      "status": "completed",
+      "output": "Generated 4 files:\n  - app/__init__.py\n  - app/config.py\n  - app/models.py\n  - app/schemas.py",
+      "artifacts": [
+        "output/Chess_43857615/app/__init__.py",
+        "output/Chess_43857615/app/config.py",
+        "output/Chess_43857615/app/models.py",
+        "output/Chess_43857615/app/schemas.py"
+      ],
+      "error": null,
+      "started_at": null,
+      "completed_at": "2026-06-24T12:10:14.524212",
+      "bugs_found": 0,
+      "bugs_fixed": 0,
+      "qa_loop_count": 0,
+      "bug_reports": [],
+      "test_results": {}
+    },
+    "qa": {
+      "status": "completed",
+      "output": "QA completed: 0/1 tests passed, 1 failed, 1 bugs reported",
+      "artifacts": [
+        "output/Chess_43857615/QA_REPORT.md"
+      ],
+      "error": null,
+      "started_at": null,
+      "completed_at": "2026-06-24T12:10:15.167773",
+      "bugs_found": 1,
+      "bugs_fixed": 0,
+      "qa_loop_count": 0,
+      "bug_reports": [
+        {
+          "id": "e4da0188-9b7f-4c55-acc5-dc372d5858a5",
+          "title": "Functional test failure: Check README",
+          "description": "File not found: README.md",
+          "severity": "medium",
+          "file_path": null,
+          "line_number": null,
+          "status": "open"
+        }
+      ],
+      "test_results": {
+        "functional": {
+          "passed": 0,
+          "failed": 1,
+          "total": 1,
+          "failures": [
+            [
+              "Check README",
+              "File not found: README.md"
+            ]
+          ]
+        },
+        "security": {
+          "issues_found": 1,
+          "findings": [
+            "Warning: Default secret key found in production code"
+          ]
+        },
+        "edge_cases": {
+          "issues_found": 0,
+          "issues": []
+        },
+        "code_quality": {
+          "total_files": 5,
+          "total_lines": 140,
+          "docstrings": 24,
+          "comment_lines": 6
+        }
+      }
+    },
+    "documentation": {
+      "status": "completed",
+      "output": "Generated 5 documentation files",
+      "artifacts": [
+        "output/Chess_43857615/API.md",
+        "output/Chess_43857615/README.md",
+        "output/Chess_43857615/DEPLOYMENT.md",
+        "output/Chess_43857615/CHANGELOG.md",
+        "output/Chess_43857615/USER_GUIDE.md"
+      ],
+      "error": null,
+      "started_at": null,
+      "completed_at": "2026-06-24T12:10:15.184073",
+      "bugs_found": 0,
+      "bugs_fixed": 0,
+      "qa_loop_count": 0,
+      "bug_reports": [],
+      "test_results": {}
+    },
+    "runner": {
+      "status": "completed",
+      "output": "Structure Validation: \u274c Failed\nDependencies: \u274c Missing\nSyntax Check: \u2705 Passed\nEntry Point: \u274c Not found",
+      "artifacts": [
+        "output/Chess_43857615/RUNNER_REPORT.md"
+      ],
+      "error": null,
+      "started_at": null,
+      "completed_at": "2026-06-24T12:10:15.197577",
+      "bugs_found": 0,
+      "bugs_fixed": 0,
+      "qa_loop_count": 0,
+      "bug_reports": [],
+      "test_results": {}
+    }
+  },
+  "requirement_agent": {
+    "status": "completed",
+    "output": "Requirements generated with 1025 characters",
+    "artifacts": [
+      "output/Chess_43857615/REQUIREMENTS.md"
+    ],
+    "error": null,
+    "started_at": null,
+    "completed_at": "2026-06-24T12:10:06.233505",
+    "bugs_found": 0,
+    "bugs_fixed": 0,
+    "qa_loop_count": 0,
+    "bug_reports": [],
+    "test_results": {}
+  },
+  "architecture_agent": {
+    "status": "completed",
+    "output": "Architecture designed with 2162 characters",
+    "artifacts": [
+      "output/Chess_43857615/ARCHITECTURE.md"
+    ],
+    "error": null,
+    "started_at": null,
+    "completed_at": "2026-06-24T12:10:06.932964",
+    "bugs_found": 0,
+    "bugs_fixed": 0,
+    "qa_loop_count": 0,
+    "bug_reports": [],
+    "test_results": {}
+  },
+  "development_agent": {
+    "status": "completed",
+    "output": "Generated 4 files:\n  - app/__init__.py\n  - app/config.py\n  - app/models.py\n  - app/schemas.py",
+    "artifacts": [
+      "output/Chess_43857615/app/__init__.py",
+      "output/Chess_43857615/app/config.py",
+      "output/Chess_43857615/app/models.py",
+      "output/Chess_43857615/app/schemas.py"
+    ],
+    "error": null,
+    "started_at": null,
+    "completed_at": "2026-06-24T12:10:14.524212",
+    "bugs_found": 0,
+    "bugs_fixed": 0,
+    "qa_loop_count": 0,
+    "bug_reports": [],
+    "test_results": {}
+  },
+  "qa_agent": {
+    "status": "completed",
+    "output": "QA completed: 0/1 tests passed, 1 failed, 1 bugs reported",
+    "artifacts": [
+      "output/Chess_43857615/QA_REPORT.md"
+    ],
+    "error": null,
+    "started_at": null,
+    "completed_at": "2026-06-24T12:10:15.167773",
+    "bugs_found": 1,
+    "bugs_fixed": 0,
+    "qa_loop_count": 0,
+    "bug_reports": [
+      {
+        "id": "e4da0188-9b7f-4c55-acc5-dc372d5858a5",
+        "title": "Functional test failure: Check README",
+        "description": "File not found: README.md",
+        "severity": "medium",
+        "file_path": null,
+        "line_number": null,
+        "status": "open"
+      }
+    ],
+    "test_results": {
+      "functional": {
+        "passed": 0,
+        "failed": 1,
+        "total": 1,
+        "failures": [
+          [
+            "Check README",
+            "File not found: README.md"
+          ]
+        ]
+      },
+      "security": {
+        "issues_found": 1,
+        "findings": [
+          "Warning: Default secret key found in production code"
+        ]
+      },
+      "edge_cases": {
+        "issues_found": 0,
+        "issues": []
+      },
+      "code_quality": {
+        "total_files": 5,
+        "total_lines": 140,
+        "docstrings": 24,
+        "comment_lines": 6
+      }
+    }
+  },
+  "documentation_agent": {
+    "status": "completed",
+    "output": "Generated 5 documentation files",
+    "artifacts": [
+      "output/Chess_43857615/API.md",
+      "output/Chess_43857615/README.md",
+      "output/Chess_43857615/DEPLOYMENT.md",
+      "output/Chess_43857615/CHANGELOG.md",
+      "output/Chess_43857615/USER_GUIDE.md"
+    ],
+    "error": null,
+    "started_at": null,
+    "completed_at": "2026-06-24T12:10:15.184073",
+    "bugs_found": 0,
+    "bugs_fixed": 0,
+    "qa_loop_count": 0,
+    "bug_reports": [],
+    "test_results": {}
+  },
+  "runner_agent": {
+    "status": "completed",
+    "output": "Structure Validation: \u274c Failed\nDependencies: \u274c Missing\nSyntax Check: \u2705 Passed\nEntry Point: \u274c Not found",
+    "artifacts": [
+      "output/Chess_43857615/RUNNER_REPORT.md"
+    ],
+    "error": null,
+    "started_at": null,
+    "completed_at": "2026-06-24T12:10:15.197577",
+    "bugs_found": 0,
+    "bugs_fixed": 0,
+    "qa_loop_count": 0,
+    "bug_reports": [],
+    "test_results": {}
+  }
+}
